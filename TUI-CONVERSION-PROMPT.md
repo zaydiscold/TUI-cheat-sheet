@@ -57,7 +57,7 @@ Here's what I need you to do:
    - Keyboard shortcut hints at bottom
 
 6. **File Structure:**
-   ```
+
    src/
    ├── index.tsx              # Entry point, renders main app
    ├── App.tsx                # Main app with state management
@@ -69,7 +69,6 @@ Here's what I need you to do:
    │   └── ActionButtons.tsx  # Interactive button row
    └── utils/
        └── status.ts          # Status fetching logic
-   ```
 
 7. **Styling Guidelines:**
    - Use Box component for layouts (flexDirection, padding, margin)
@@ -95,7 +94,7 @@ Here's what I need you to do:
    - Don't break existing APIs or behavior
 
 10. **Example Layout:**
-    ```
+
     ╔═══════════════════════════════════════════╗
     ║        MY APPLICATION NAME                 ║
     ║        "Tagline here"                      ║
@@ -118,7 +117,6 @@ Here's what I need you to do:
     └─────────┘ └────────┘ └──────┘
 
     ← → Navigate  ↵ Execute  Q Quit
-    ```
 
 Please implement this TUI conversion while:
 - Maintaining all existing functionality
